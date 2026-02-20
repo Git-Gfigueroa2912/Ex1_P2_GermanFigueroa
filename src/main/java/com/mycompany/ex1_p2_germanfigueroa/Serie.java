@@ -8,7 +8,7 @@ package com.mycompany.ex1_p2_germanfigueroa;
  *
  * @author gafm2
  */
-abstract class Serie extends Produccion{
+class Serie extends Produccion{
     private int temporadas;
     private int episodios;
     
@@ -18,7 +18,11 @@ abstract class Serie extends Produccion{
         this.episodios = episodios;
     }
     @Override
-    public double calcularCostoFinal(){
+    public double calcularCosto(){
         return getPresupuesto() +(episodios*500);
+    }
+    @Override
+    public boolean Destacado(){
+        return temporadas > 3;
     }
 }

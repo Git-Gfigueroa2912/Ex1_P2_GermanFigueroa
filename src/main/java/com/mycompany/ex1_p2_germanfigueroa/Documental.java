@@ -8,7 +8,7 @@ package com.mycompany.ex1_p2_germanfigueroa;
  *
  * @author gafm2
  */
-abstract class Documental extends Produccion{
+class Documental extends Produccion{
     private String tema;
     private int meses_investigacion;
     

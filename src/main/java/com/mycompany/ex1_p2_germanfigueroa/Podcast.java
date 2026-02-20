@@ -8,7 +8,7 @@ package com.mycompany.ex1_p2_germanfigueroa;
  *
  * @author gafm2
  */
-abstract class Podcast extends Produccion{
+class Podcast extends Produccion{
     private int episodios;
     private boolean invitadosInternacionales;
     
